@@ -9,7 +9,7 @@ class Game
       :greater
     elsif (@secret_number < number)
       :lower
-    elsif (@secret_number === number)
+    elsif (@secret_number == number)
       :found_secret_number
     end
   end
